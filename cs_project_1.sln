@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs_project_1", "cs_project_1.csproj", "{7C5DB71D-1BD7-47EC-91DB-7EEA4333B93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONLib", "..\JSONParsing\JSONLib.csproj", "{767BA889-ABD7-48BF-B405-F14614A84AA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5DB71D-1BD7-47EC-91DB-7EEA4333B93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5DB71D-1BD7-47EC-91DB-7EEA4333B93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5DB71D-1BD7-47EC-91DB-7EEA4333B93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5DB71D-1BD7-47EC-91DB-7EEA4333B93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767BA889-ABD7-48BF-B405-F14614A84AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767BA889-ABD7-48BF-B405-F14614A84AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767BA889-ABD7-48BF-B405-F14614A84AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767BA889-ABD7-48BF-B405-F14614A84AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B10FE77C-7CC7-4AB3-A849-2D10C34F11DD}
+	EndGlobalSection
+EndGlobal
