@@ -7,4 +7,39 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="aa.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="data\.DS_Store" />
+    <None Include="data\BoH\.DS_Store" />
+    <None Include="data\BoH\core\.DS_Store" />
+    <None Include="data\BoH\core\cultures\.DS_Store" />
+    <None Include="data\BoH\loc_ru\.DS_Store" />
+    <None Include="data\BoH\loc_ru\cultures\.DS_Store" />
+    <None Include="data\BoH\loc_zh-hans\.DS_Store" />
+    <None Include="data\CS\.DS_Store" />
+    <None Include="data\CS\core\.DS_Store" />
+    <None Include="data\CS\loc_ru\.DS_Store" />
+    <None Include="data\data\.DS_Store" />
+    <None Include="data\data\BoH\.DS_Store" />
+    <None Include="data\data\BoH\core\.DS_Store" />
+    <None Include="data\data\BoH\core\cultures\.DS_Store" />
+    <None Include="data\data\BoH\loc_ru\.DS_Store" />
+    <None Include="data\data\BoH\loc_ru\cultures\.DS_Store" />
+    <None Include="data\data\BoH\loc_zh-hans\.DS_Store" />
+    <None Include="data\data\CS\.DS_Store" />
+    <None Include="data\data\CS\core\.DS_Store" />
+    <None Include="data\data\CS\loc_ru\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Terminal.Gui" Version="1.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsonLibrary\JsonLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
